@@ -3,8 +3,8 @@ $secondary-color: #4ddbff;
 $font-primary: 'Montserrat', sans-serif;
 $font-secondary: 'Open Sans', sans-serif;
 $show-home-image: true;
-$home-image: url(../img/showcase.jpg);
-$background-opacity: 0.725;
+$home-image: url(../img/showcase4.jpg);
+$background-opacity: 0.6;
 
 /* mixins */
 @mixin easeOut {
@@ -17,6 +17,7 @@ $background-opacity: 0.725;
       background: $home-image;
       background-attachment: fixed;
       background-size: cover;
+      background-position: right;
     }
 
     &:after {
