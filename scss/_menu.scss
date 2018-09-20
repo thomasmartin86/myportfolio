@@ -41,7 +41,7 @@
   position: fixed;
   top: 0;
   width: 100%;
-  opacity: 0.825;
+  opacity: 0.98;
   visibility: hidden;
 
   &.show {
@@ -87,10 +87,10 @@
     .portrait {
       width: 250px;
       height: 250px;
-      background: url('../img/portrait.jpg');
+      background: url('../img/portrait_250x250.jpg');
       background-position: 50% 10%;
       border-radius: 50%;
-      margin-bottom: 20px;
+      margin: 5px;
       border: solid 3px $secondary-color;
       filter: grayscale(0.5);
       @include easeOut;
@@ -140,7 +140,7 @@
 }
 
 /* grow */
-.portrait {
+/* .portrait {
   display: inline-block;
   vertical-align: middle;
   -webkit-transform: translateZ(0);
@@ -160,3 +160,4 @@
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
 }
+ */
