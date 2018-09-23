@@ -4,12 +4,15 @@
   "description": "Responsive Portfolio Website",
   "main": "index.js",
   "scripts": {
-    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive",
+    "deploy": "gh-pages -d src"
   },
   "keywords": [],
-  "author": "",
+  "homepage": "https://thomasmartin86.github.io/portfolio",
+  "author": "Thomas Martin",
   "license": "ISC",
   "dependencies": {
+    "gh-pages": "^2.0.0",
     "node-sass": "^4.9.3"
   }
 }
