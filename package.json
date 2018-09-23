@@ -7,7 +7,7 @@
     "deploy": "gh-pages -d dist"
   },
   "keywords": [],
-  "homepage": "https://thomasmartin86.github.io/portfolio",
+  "homepage": "https://thomasmartin86.github.io/myportfolio",
   "author": "Thomas Martin",
   "license": "ISC",
   "dependencies": {
