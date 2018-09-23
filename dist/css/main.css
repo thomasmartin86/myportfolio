@@ -148,7 +148,7 @@ body {
  */
   line-height: 1.4; }
   body#bg-image {
-    background: url(../img/apple.jpg);
+    background: url(../img/applelow.jpg);
     background-attachment: fixed;
     background-size: cover;
     background-position: left; }
@@ -462,7 +462,7 @@ div.slide-right span {
   main {
     align-items: center;
     text-align: center;
-    padding: 1.5rem; }
+    padding: 1.3rem; }
     main#home h1 {
       margin-top: 30vh;
       font-size: 5rem; }
@@ -513,6 +513,11 @@ div.slide-right span {
     grid-template-columns: repeat(2, 1fr); } }
 
 @media screen and (max-width: 675px) and (max-height: 400px) {
+  main {
+    align-items: center;
+    text-align: center;
+    padding: 1.5rem;
+    overflow: hidden; }
   .menu-nav {
     font-size: 1.2rem; }
   .nav-link {

@@ -28,7 +28,7 @@
   main {
     align-items: center;
     text-align: center;
-    padding: 1.5rem;
+    padding: 1.3rem;
 
     &#home h1 {
       margin-top: 30vh;
@@ -110,6 +110,12 @@
 }
 
 @media screen and (max-width: 675px) and (max-height: 400px) {
+  main {
+    align-items: center;
+    text-align: center;
+    padding: 1.5rem;
+    overflow: hidden;
+  }
   .menu-nav {
     font-size: 1.2rem;
   }
