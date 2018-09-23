@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "sass": "node-sass -w scss/ -o dist/css/ --recursive",
-    "deploy": "gh-pages -d src"
+    "deploy": "gh-pages -d dist"
   },
   "keywords": [],
   "homepage": "https://thomasmartin86.github.io/portfolio",
