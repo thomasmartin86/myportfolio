@@ -237,8 +237,13 @@ main {
   height: 60px;
 }
 
+ul {
+  padding: 0px;
+}
 .mylist-item {
   list-style: none;
+  margin: 0px;
+  padding: 0px;
 }
 
 /* Effects */
