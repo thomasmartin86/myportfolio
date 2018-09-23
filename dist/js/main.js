@@ -20,7 +20,6 @@ function toggleMenu() {
 
     showMenu = true;
   } else {
-    console.log(showMenu + 'else');
     menuBtn.classList.remove('close');
     menu.classList.remove('show');
     menuNav.classList.remove('show');
