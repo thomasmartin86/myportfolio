@@ -149,7 +149,6 @@ body {
   line-height: 1.4; }
   body#bg-image {
     background: url(../img/applelow.jpg);
-    background-attachment: fixed;
     background-size: cover;
     background-position: left; }
   body:after {
@@ -512,7 +511,7 @@ div.slide-right span {
   .projects {
     grid-template-columns: repeat(2, 1fr); } }
 
-@media screen and (max-width: 675px) and (max-height: 400px) {
+@media screen and (max-width: 675px) and (max-height: 3600px) {
   main {
     align-items: center;
     text-align: center;
